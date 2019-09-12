@@ -1,0 +1,40 @@
+body {
+    padding-top: 1rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.thumbnail-size {
+    max-width: 100px !important;
+}
+
+.card {
+    width: 14rem;
+}
+
+a.custom-card,
+a.custom-card:hover {
+    color: inherit;
+}
+
+.table-row {
+    cursor: pointer;
+}
+
+dl.home-list-details{
+    line-height: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+dl.home-list-details dt{
+    color: #bbbbbb;
+}
+
+
+.leaflet-container {
+  width: 100%;
+  height: 600px;
+}

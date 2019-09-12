@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  difo-homes-frontend:
+    build: .
+    ports:
+      - 80:8080
+    volumes:
+      - ${DIFO_IMAGE_PATH}:/var/www/images/:ro
+    environment:
+      - DIFO_API_HOST:${DIFO_API_HOST}
